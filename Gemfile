@@ -31,6 +31,8 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'bootstrap'
 
+gem 'rails-i18n' #エラーメッセージの日本語化
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

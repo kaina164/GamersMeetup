@@ -1,5 +1,40 @@
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-  color: red;
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+}
+
+header {
+  border-bottom: solid gray 2px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.post-index {
+  border: solid gray 2px;
+}
+
+.post-form {
+  border: solid gray 2px;
+}
+
+a {
+  color: #212529;
+  &:hover {
+    color: rgba(21, 25, 29, 0.7);
+  }
+}
+
+li {
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
 }
